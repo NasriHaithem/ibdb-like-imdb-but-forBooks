@@ -17,16 +17,17 @@
             crossorigin="anonymous"
     ></script>
 
-    <title>Better Reads</title>
+    <title>IBDB</title>
 </head>
 <body>
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light"  style="padding-bottom: 20px">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">Better Reads</a>
+            <a class="navbar-brand" href="/">IBDB</a>
         </div>
-        <div th:insert="components/book-search :: search-panel"></div>
     </nav>
+
+    <div th:insert="components/book-search :: search-panel"></div>
 
     <section class="content">
         <div class="card-group">
